@@ -1,0 +1,29 @@
+let metodo = "Pagamento"
+
+switch(metodo) {
+    case "Dinheiro":
+        alert("Pagamento em Dinheiro");
+        break;
+    case "Pix":
+        alert("Pagamento em Pix");
+        break;
+    case "Cartão de Débito":
+        alert("Pagamento em Cartão de Débito");
+        break;
+    case "Cartão de Crédito":
+        alert("Pagamento em Cartão de Crédito");
+        break;
+    case "Boleto":
+        alert("Pagamento no Boleto");
+        break;
+    case "Crediário":
+        alert("Pagamento no Carnê");
+        break;
+    case "Vale-Alimentação":
+        alert("Pagamento via Ticket");
+        break;
+    default:
+        alert("Opção de Pagamento inválida")
+        break;
+
+}
